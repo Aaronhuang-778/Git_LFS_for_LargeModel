@@ -9,8 +9,6 @@ TEST_ORT_DIR = 'ci_test_dir'
 TEST_TAR_DIR = 'ci_test_tar_dir'
 cwd_path = Path.cwd()
 
-
-
 def get_model_directory(model_path):
     return os.path.dirname(model_path)
 
